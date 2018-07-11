@@ -3,17 +3,37 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: Leon's Blog
+subtitle: Learning Records
+author: Leon Liu
+language: zh
+timezone: Asia/Shanghai
+
+# Site settings
+# 网站综合内容设置：
+SEOTitle: 柳晓龙的博客 | Leon's Blog
+header-img: img/img1.jpg
+email: 2470719811@qq.com
+description: "柳晓龙的博客"
+keyword: "IT学习"
+
+# Build settings
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+sidebar-avatar: img/img1.jpg 
+
+# SNS settings
+# 一些社交平台地址，支持以下几种：
+# weibo_username:     3286578617
+# zhihu_username:     ai-er-lan-xue-da
+github_username:    lxl026
+# twitter_username:   iconie_alloy
+# facebook_username:  xiaotao.nie.5
+# linkedin_username:  小涛-聂-80964aba
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://leonelse.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -22,11 +42,13 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: archive
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -41,7 +63,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -73,7 +95,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
