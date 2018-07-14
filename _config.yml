@@ -103,3 +103,7 @@ deploy:
   type:  git
   repository:  git@github.com:lxl026/lxl026.github.io.git
   branch:  master
+
+search:
+  path: search.json
+  field: post
